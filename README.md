@@ -2,6 +2,10 @@
 
 Firefox
 
+
+about:config
+
+
 media.peerconnection.enabled - false
 
 media.peerconnection.use_document_iceservers - false 
@@ -57,3 +61,35 @@ network.dns.disablePrefetch = true
 dom.event.clipboardevents.enabled = false
 
 media.eme.enabled = false
+
+
+about:preferences
+
+
+Check following and Do as following if required
+
+
+Disable Play DRM controlled Content
+
+Change HomePage and NewTabs to Blank
+
+Disable every Entry of Firefox Home Content
+
+Change Default search engine to Searx private instance if you don't have any then to Qwant.
+
+Disable Search Suggestions
+
+Set Enahanced Tracking Protection to Strict.
+
+Set Do not track Parameter to Always
+
+Set to Delete Cookies and Site Data to clean when Firefox Closes.
+
+Disable Logins and Password Storage
+
+Set Firefox not to Remember History.
+
+Set Address Bar to suggest nothing.
+
+Disable Every entry in Firefox Data collection and Telemetry.
+
