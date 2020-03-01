@@ -6,61 +6,59 @@ Firefox
 about:config
 
 
-media.peerconnection.enabled - false
+    media.peerconnection.enabled - false
 
-media.peerconnection.use_document_iceservers - false 
+    media.peerconnection.use_document_iceservers - false 
 
-network.dns.disableIPv6 - true
+    media.eme.enabled = false
 
-browser.send_pings - false
+    media.navigator.enabled = false
 
-browser.send_pings.require_same_host - true
+    browser.send_pings - false
 
-privacy.donottrackheader.enabled - true
+    browser.send_pings.require_same_host - true
 
-privacy.donottrackheader.value - 1
+    browser.search.geoSpecificDefaults - false
 
-privacy.trackingprotection.enabled - true 
+    browser.search.geoSpecificDefaults.url - (blank)
 
-geo.enabled - false
+    browser.search.geoip.url - (blank)
 
-geo.wifi.uri - (blank) 
+    privacy.donottrackheader.enabled - true
 
-browser.search.geoSpecificDefaults - false
+    privacy.donottrackheader.value - 1
 
-browser.search.geoSpecificDefaults.url - (blank)
+    privacy.trackingprotection.enabled - true 
 
-browser.search.geoip.url - (blank) 
+    geo.enabled - false
 
-toolkit.telemetry.enabled - false
+    geo.wifi.uri - (blank) 
+ 
+    toolkit.telemetry.enabled - false
 
-toolkit.telemetry.server - (blank) 
+    toolkit.telemetry.server - (blank) 
 
-network.dns.disablePrefetch - true
+    network.dns.disablePrefetch - true
 
-network.prefetch-next - false
+    network.prefetch-next - false
 
-webgl.disabled - true
+    network.dns.disableIPv6 - true
 
-privacy.resistFingerprinting = true
+    network.cookie.cookieBehavior = 4
 
-privacy.trackingprotection.fingerprinting.enabled = true
+    network.cookie.lifetimePolicy = 2
 
-privacy.trackingprotection.cryptomining.enabled = true
+    webgl.disabled - true
 
-privacy.firstparty.isolate = true
+    privacy.resistFingerprinting = true
 
-media.navigator.enabled = false
+    privacy.trackingprotection.fingerprinting.enabled = true
 
-network.cookie.cookieBehavior = 4
+    privacy.trackingprotection.cryptomining.enabled = true
 
-network.cookie.lifetimePolicy = 2
+    privacy.firstparty.isolate = true
 
-network.dns.disablePrefetch = true
-
-dom.event.clipboardevents.enabled = false
-
-media.eme.enabled = false
+    dom.event.clipboardevents.enabled = false
 
 
 about:preferences
