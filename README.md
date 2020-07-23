@@ -60,6 +60,14 @@ about:config
 
     dom.event.clipboardevents.enabled = false
 
+    network.security.esni.enabled = true
+    
+    network.trr.mode = 3
+    
+    network.trr.custom_uri = https://dns.nextdns.io/xxxxxx  (replace with your ID)
+    
+    network.trr.resolver = https://dns.nextdns.io/xxxxxx
+    
 
 about:preferences
 
@@ -91,3 +99,4 @@ Set Address Bar to suggest nothing.
 
 Disable Every entry in Firefox Data collection and Telemetry.
 
+Check settings in DNS over https.
