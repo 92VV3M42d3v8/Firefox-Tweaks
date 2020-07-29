@@ -29,6 +29,14 @@ about:config
     privacy.donottrackheader.value - 1
 
     privacy.trackingprotection.enabled - true 
+    
+    privacy.resistFingerprinting = true
+
+    privacy.trackingprotection.fingerprinting.enabled = true
+
+    privacy.trackingprotection.cryptomining.enabled = true
+
+    privacy.firstparty.isolate = true
 
     geo.enabled - false
 
@@ -37,6 +45,10 @@ about:config
     toolkit.telemetry.enabled - false
 
     toolkit.telemetry.server - (blank) 
+    
+    webgl.disabled - true
+
+    dom.event.clipboardevents.enabled = false
 
     network.dns.disablePrefetch - true
 
@@ -48,19 +60,9 @@ about:config
 
     network.cookie.lifetimePolicy = 2
 
-    webgl.disabled - true
-
-    privacy.resistFingerprinting = true
-
-    privacy.trackingprotection.fingerprinting.enabled = true
-
-    privacy.trackingprotection.cryptomining.enabled = true
-
-    privacy.firstparty.isolate = true
-
-    dom.event.clipboardevents.enabled = false
-
     network.security.esni.enabled = true
+    
+Optional    
     
     network.trr.mode = 3
     
