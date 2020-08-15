@@ -14,6 +14,14 @@ about:config
 
     media.navigator.enabled = false
 
+    browser.cache.disk.enable = false
+
+    browser.cache.offline.enable = false
+
+    browser.cache.disk.capacity = 0
+
+    browser.cache.offline.capacity = 0
+    
     browser.send_pings - false
 
     browser.send_pings.require_same_host - true
