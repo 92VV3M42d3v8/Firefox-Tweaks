@@ -110,3 +110,8 @@ Set Address Bar to suggest nothing.
 Disable Every entry in Firefox Data collection and Telemetry.
 
 Check settings in DNS over https.
+
+
+Add-ons
+
+   ublock origin, Decentraleyes, NoScript, Privacy badger, https everywhere, To Google translate
