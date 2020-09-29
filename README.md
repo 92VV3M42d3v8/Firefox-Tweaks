@@ -1,4 +1,4 @@
-# PrivacyGuides
+# Firefox Tweaks
 
 Firefox
 
