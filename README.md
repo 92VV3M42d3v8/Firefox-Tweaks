@@ -118,6 +118,7 @@ Disable Every entry in Firefox Data collection and Telemetry.
 
 Check settings in DNS over https.
 
+Privacy & Security > Permissions > Block location, microphone etc.
 
 Add-ons
 
