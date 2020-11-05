@@ -120,6 +120,8 @@ Check settings in DNS over https.
 
 Privacy & Security > Permissions > Block location, microphone etc.
 
+
+
 Add-ons
 
    ublock origin, Decentraleyes, NoScript, Privacy badger, https everywhere, To Google translate
