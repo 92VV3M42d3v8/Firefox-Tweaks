@@ -2,6 +2,9 @@
 
 Firefox
 
+Running firefox as user-
+
+    [user@dom0 ~]$ qvm-run -a fedora-33-dvm gnome-terminal
 
 about:config
 
@@ -78,6 +81,10 @@ Optional
     
     network.trr.resolver = https://dns.nextdns.io/xxxxxx
     
+    dom.security.https_only_mode = true
+    
+    dom.security.https_only_mode_ever_enabled = true
+
 
 about:preferences
 
