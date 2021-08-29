@@ -4,11 +4,19 @@ Firefox
 
 Running firefox as user-
 
-    [user@dom0 ~]$ qvm-run -a fedora-33-dvm gnome-terminal
+    [user@dom0 ~]$ qvm-run -a fedora-34-dvm firefox-esr
 
 about:config
 
 
+    app.normandy.enabled - false
+    
+    app.normandy.first_run - false
+    
+    app.normandy.api_url - blank
+    
+    beacon.enabled - false
+    
     media.peerconnection.enabled - false
 
     media.peerconnection.use_document_iceservers - false 
@@ -35,6 +43,8 @@ about:config
 
     browser.search.geoip.url - (blank)
 
+    browser.urlbar.speculativeConnect.enabled - false
+    
     privacy.donottrackheader.enabled - true
 
     privacy.donottrackheader.value - 1
@@ -52,6 +62,8 @@ about:config
     geo.enabled - false
 
     geo.wifi.uri - (blank) 
+    
+    geo.provider.network.url - blank
  
     toolkit.telemetry.enabled - false
 
@@ -60,6 +72,10 @@ about:config
     webgl.disabled - true
 
     dom.event.clipboardevents.enabled = false
+    
+    dom.ipc.plugins.flash.subprocess.crashreporter.enabled = false
+    
+    dom.battery.enabled - false
 
     network.dns.disablePrefetch - true
 
@@ -73,6 +89,23 @@ about:config
 
     network.security.esni.enabled = true
     
+    network.http.speculative-parallel-limit = 0
+    
+    network.captive-portal-service.enabled - false
+    
+    network.IDN_show_punycode - true
+    
+    captivedetect.canonicalURL - blank
+    
+    layout.css.visited_links_enabled - false
+    
+    device.sensors.enabled - false
+    
+    dom.security.https_only_mode = true
+
+    dom.security.https_only_mode_ever_enabled = true
+
+
 Optional    
     
     network.trr.mode = 3
@@ -81,9 +114,7 @@ Optional
     
     network.trr.resolver = https://dns.nextdns.io/xxxxxx
     
-    dom.security.https_only_mode = true
-    
-    dom.security.https_only_mode_ever_enabled = true
+
 
 
 about:preferences
@@ -124,4 +155,4 @@ Privacy & Security > Permissions > Block location, microphone etc.
 
 Add-ons
 
-   ublock origin, Decentraleyes, NoScript, Privacy badger, https everywhere, To Google translate
+   ublock origin, Decentraleyes
